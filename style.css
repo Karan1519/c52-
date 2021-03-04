@@ -1,0 +1,145 @@
+h1 {
+    color: white;
+    margin :30px;
+}
+*{
+    border:solid;
+}
+body{
+    background-color: #808080;
+}
+.header{
+    display:flex;
+    justify-content:flex-start;
+    background-color: aqua;
+}
+.paragraph{
+    display:flex;
+    justify-content: space-evenly;
+    background-color: rgb(179, 248, 245);
+}
+.trex{
+    display:flex;
+    justify-content:flex-start;
+    background-color:#B6D8D6
+}
+.pong{
+    display:flex;
+    justify-content:flex-start;
+    background-color: #B6D8D6
+}
+.bird{
+    display:flex;
+    justify-content:flex-start;
+    background-color:#B6D8D6
+}
+.car{
+    display:flex;
+    justify-content:flex-start;
+    background-color:#B6D8D6
+}
+
+.icon{
+    display:flex;
+    justify-content:flex-start;
+    background-color: #B6D8D6
+}
+
+
+.header *{
+    border :solid;
+}
+.trex {
+    position: relative;
+
+}
+
+.trex p{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    opacity:0;
+}
+
+.trex :hover p{
+    opacity:1;
+}
+
+.trex:hover img{
+    opacity:0.33;
+}
+
+
+.pong {
+    position: relative;
+
+}
+
+.pong p{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    opacity:0;
+}
+
+.pong :hover p{
+    opacity:1;
+}
+
+.pong:hover img{
+    opacity:0.33;
+}
+
+
+.bird {
+    position: relative;
+
+}
+
+.bird p{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    opacity:0;
+}
+
+.bird :hover p{
+    opacity:1;
+}
+
+.bird:hover img{
+    opacity:0.33;
+}
+
+
+.car {
+    position: relative;
+
+}
+
+.car p{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    opacity:0;
+}
+
+.car :hover p{
+    opacity:1;
+}
+
+.car:hover img{
+    opacity:0.33;
+}
+.menu a{
+    margin-left : 30px;
+    padding-bottom: 30px;
+}
+
+
+
+
